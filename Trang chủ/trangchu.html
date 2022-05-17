@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trang chủ tiki</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assetAll/cssAll/grid.css" />
+    <link rel="stylesheet" href="./asset/css/trangchu.css" />
+    <link rel="stylesheet" href="./asset/css/responsivetrangchu.css" />
+  </head>
+  <body>
+    <section>
+      <div class="header">
+        <div class="grid wide">
+          <div class="header__logo">
+            <a href="">
+              <img
+                src="./asset/images/anhTrangChu.png"
+                alt=""
+                class="img-logo"
+              />
+            </a>
+            <a href="">
+              <img
+                src="./asset/images/introduce.png"
+                alt=""
+                class="img-introduce"
+              />
+            </a>
+          </div>
+          <div class="header__nav">
+            <div class="header__search">
+              <div class="search__container">
+                <input
+                  type="text"
+                  placeholder="Tìm sản phẩm danh mục thương hiệu mong muốn"
+                  class="search__bar"
+                />
+                <div class="search__board hide">
+                  <div class="board__title">
+                    <a href="">
+                      <h3 class="title-left">SIÊU SALE SINH NHẬT</h3>
+                    </a>
+                    <a href="">
+                      <h3 class="title-right">SALE CƯC TO 11.1</h3>
+                    </a>
+                  </div>
+                  <div class="board__history">
+                    <ul class="list-history">
+                      <a class="item__history">
+                        <div class="product__history">
+                          <img
+                            src="./asset/images/clock.png"
+                            alt=""
+                            class="img-clock"
+                          />
+                          <span class="name-product">khăn quàng</span>
+                        </div>
+                        <i class="fas fa-times icon-close"></i>
+                      </a>
+                    </ul>
+                    <div class="viewmore">
+                      <span class="viewmore__des">Xem thêm </span>
+                      <i class="fas fa-chevron-down arrow-down"></i>
+                    </div>
+                  </div>
+                  <div class="search__popular">
+                    <div class="popular__top">
+                      <img
+                        src="./asset/images/timkiemphobien.png"
+                        alt=""
+                        class="img-popular"
+                      />
+                      <h3 class="popular__title">Tìm Kiếm Phổ Biến</h3>
+                    </div>
+                    <ul class="list__product-popular">
+                      <li>
+                        <a href="" class="item__popular">
+                          <img
+                            src="./asset/images/spnoibat1.jpg"
+                            alt=""
+                            class="img__product-popular"
+                          />
+                          <span class="name__product-popular">Dép</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="" class="item__popular">
+                          <img
+                            src="./asset/images/spnoibat2.jpg"
+                            alt=""
+                            class="img__product-popular"
+                          />
+                          <span class="name__product-popular">Máy uốn tóc</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="" class="item__popular">
+                          <img
+                            src="./asset/images/spnoibat3.jpg"
+                            alt=""
+                            class="img__product-popular"
+                          />
+                          <span class="name__product-popular">Quần</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="search__category">
+                    <h3 class="search__category-title">Danh Mục Nổi Bật</h3>
+                    <ul class="search__category-list">
+                      <li>
+                        <a href="" class="search__category-item">
+                          <img
+                            src="./asset/images/anhdanhmuc1.jpg"
+                            alt=""
+                            class="search__category-img"
+                          />
+                          <span class="search__category-name"
+                            >Điện thoại máy tính</span
+                          >
+                        </a>
+                      </li>
+                      <li>
+                        <a href="" class="search__category-item">
+                          <img
+                            src="./asset/images/anhdanhmuc2.jpg"
+                            alt=""
+                            class="search__category-img"
+                          />
+                          <span class="search__category-name">Đồ gia dụng</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="" class="search__category-item">
+                          <img
+                            src="./asset/images/anhdanhmuc3.png"
+                            alt=""
+                            class="search__category-img"
+                          />
+                          <span class="search__category-name"
+                            >Đồ chơi trẻ em</span
+                          >
+                        </a>
+                      </li>
+                      <li>
+                        <a href="" class="search__category-item">
+                          <img
+                            src="./asset/images/anhdanhmuc4.png"
+                            alt=""
+                            class="search__category-img"
+                          />
+                          <span class="search__category-name"
+                            >Phụ kiện làm đẹp</span
+                          >
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <button class="search__btn">
+                <i class="fas fa-search icon-search"></i>
+                <span class="search__des">Tìm kiếm</span>
+              </button>
+              <div class="header__user">
+                <div class="user__avatar">
+                  <i class="far fa-user icon-user"></i>
+                </div>
+                <div class="user__content">
+                  <div class="user__top">
+                    <span class="user__login">Đăng nhập/</span>
+                    <span class="user__register">Đăng ký</span>
+                  </div>
+                  <div class="user__bottom">
+                    <span class="user__account">Tài khoản</span>
+                    <i class="fas fa-sort-down icon-more"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <ul class="header__category">
+              <li class="item">
+                <a href="" class="link">trái cây</a>
+              </li>
+              <li class="item">
+                <a href="" class="link">thịt trứng</a>
+              </li>
+              <li class="item">
+                <a href="" class="link">rau củ quả</a>
+              </li>
+              <li class="item">
+                <a href="" class="link">sữa , bở , phô mai</a>
+              </li>
+              <li class="item">
+                <a href="" class="link">hải sản</a>
+              </li>
+            </ul>
+          </div>
+          <div class="header__cart">
+            <div class="cart__top">
+              <a class="cart__content">
+                <i class="fas fa-shopping-cart icon-cart"></i>
+                <span class="cart__number"> 0 </span>
+              </a>
+              <a class="cart__des">Giỏ Hàng</a>
+            </div>
+            <div class="cart__bottom">
+              <a href="" class="cart__introduce"> Bán hàng cùng tiki </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="body">
+        <div class="body__category-contain">
+          <div class="grid wide">
+            <div class="body__category">
+              <div class="icon-arrowRev">
+              </div>
+              <ul class="body__category-list">
+              </ul>
+              <div class="icon-arrowNext">
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="grid wide">
+          <div class="body__advertisement">
+            <div class="body__advertisement-left">
+              <div class="advertisement-iconNext">
+                <i class="fas fa-chevron-right"></i>
+              </div>
+              <ul class="body__advertisement-list">
+              </ul>
+              <ul class="body__advertisement-dots">
+              </ul>
+              <div class="advertisement-iconRev">
+                <i class="fas fa-chevron-left"></i>
+              </div>
+            </div>
+            <div class="body__advertisement-right">
+              <div class="notify-birth">
+                <img src="./asset/images/sinhnhat.webp" alt="" class="img-birth">
+              </div>
+            </div>
+          </div>
+          <div class="sales-day">
+            <div class="sales-day__iconRev hideop">
+              <i class="fas fa-chevron-left"></i>
+            </div>
+            <div class="sales-day__top">
+              <div class="sales-day__img">
+                <img src="./asset/images/giasoc1.svg" alt="">
+                <img src="./asset/images/giasoc2.svg" alt="">
+                <img src="./asset/images/giasoc3.svg" alt="">
+              </div>
+              <a class="sales-day__time">
+                 <p class="sales-day__hours">02</p>
+                 <span>:</span>
+                 <p class="sales-day__minutes">10</p>
+                 <span>:</span>
+                 <p class="sales-day__seconds">30</p>
+                 <i class="fas fa-chevron-right sales-day__icon"></i>
+              </a>
+            </div>
+            <div class="sales-day__product">
+              <ul class="sales-day__list">
+              </ul>
+            </div>
+            <div class="sales-day__iconNext">
+              <i class="fas fa-chevron-right"></i>
+            </div>
+          </div>
+          <div class="body__brith">
+            <div class="body__brith-left">
+              <img src="./asset/images/quatangsinhnhat.webp" alt="">
+            </div>
+            <div class="body__brith-center">
+              <img src="./asset/images/thoigiansinhnhat.webp" alt="">
+            </div>
+            <div class="body__brith-right">
+              <img src="./asset/images/salesinhnhat.webp" alt="">
+            </div>
+          </div>
+          <div class="body__remember">
+              <ul class="body__remember-list">
+              </ul>
+          </div>
+          <div class="body__banner">
+            <ul class="body__banner-list">
+               <li class="body__banner-item">
+                 <img src="./asset/images/banner1.webp" alt="">
+               </li>
+               <li class="body__banner-item">
+                <img src="./asset/images/banner2.webp" alt="">
+              </li>
+              <li class="body__banner-item">
+                <img src="./asset/images/banner3.webp" alt="">
+              </li>
+              <li class="body__banner-item">
+                <img src="./asset/images/banner4.webp" alt="">
+              </li>
+            </ul>
+          </div>
+          <div class="body__brand">
+            <div class="body__brand-top">
+               <div class="body__brand-left">
+                 <img src="./asset/images/chẹckbrand.png" alt="">
+                 <h3>Thương Hiệu Chính Hãng</h3>
+               </div>
+               <div class="body__brand-right">
+                 <a href="">Xem Thêm</a>
+              </div>
+            </div>
+            <div class="body__brand-banner">
+              <div class="brand-iconRev">
+                <i class="fas fa-chevron-left"></i>
+              </div>
+              <ul class="body__brand-list">
+              </ul>
+              <div class="brand-iconNext">
+                <i class="fas fa-chevron-right"></i>
+              </div>
+            </div>
+            <div class="body__brand-product">
+              <div class="body__brand-iconRev hideop">
+                <i class="fas fa-chevron-left"></i>
+               </div>
+               <ul class="body__brand-product-list"> 
+               </ul>
+               <div class="body__brand-iconNext">
+                <i class="fas fa-chevron-right"></i>
+               </div>
+            </div>
+          </div>
+          <div class="featured-category">
+            <div class="featured-category__top">
+              <h3>Danh Mục Nổi Bật</h3>
+            </div>
+            <div class="featured-category__list">
+            </div>
+          </div>
+          <div class="shopping-trends">
+            <div class="shopping-trends__top">
+              <div class="shopping-trends__left">
+                  <img src="./asset/images/Xu Hướng Mua Sắm.png" alt="" class = "shopping-trends__logo">
+                   <h2 class="shopping-trends__title">
+                    Xu Hướng Mua Sắm
+                   </h2>
+              </div>
+              <div class="shopping-trends__right">
+                <a class="">XEM THÊM</a>
+              </div>
+            </div>
+            <div class="shopping-trends__product">
+              <div class="shopping-trends-iconRev hideop">
+                <i class="fas fa-chevron-left"></i>
+               </div>
+              <div class="shopping-trends__list">
+              </div>
+              <div class="shopping-trends-iconNext">
+                <i class="fas fa-chevron-right"></i>
+               </div>
+            </div>
+          </div>
+          <div class="body__banner">
+            <ul class="body__banner-list">
+               <li class="body__banner-item">
+                 <img src="./asset/images/bannernext1.webp" alt="">
+               </li>
+               <li class="body__banner-item">
+                <img src="./asset/images/bannernext2.webp" alt="">
+              </li>
+              <li class="body__banner-item">
+                <img src="./asset/images/bannernext3.webp" alt="">
+              </li>
+            </ul>
+          </div>
+          <div class="today-suggestions">
+            <div class="today-suggestions__top">
+              <div class="today-suggestions__title">
+                Gợi Ý Hôm Nay
+              </div>
+              <ul class="today-suggestions__list">
+              </ul>
+            </div>
+            <div class="today-suggestions-contain">
+              <div class="today-suggestions__list-product">
+              </div>
+              <div class="viewmore-product">
+                <button>
+                  Xem Thêm
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="footer">
+        <div class="grid wide">
+          <ul class="footer__list">
+             <li class="footer__item">
+               <h4 class="footer__title">
+                Hỗ trợ khách hàng
+               </h4>
+                <a href="" class="footer__link">
+                  Hotline: 1900-6035 <br>
+                  (1000 đ/phút, 8-21h kể cả T7, CN)
+                </a>
+                <a href="" class="footer__link">
+                  Các câu hỏi thường gặp
+                </a><a href="" class="footer__link">
+                  Gửi yêu cầu hỗ trợ
+                </a><a href="" class="footer__link">
+                  Hướng dẫn đặt hàng
+                </a><a href="" class="footer__link">
+                  Phương thức vận chuyển
+                </a>
+             </li>
+             <li class="footer__item">
+              <h4 class="footer__title">
+                Về Tiki
+              </h4>
+               <a href="" class="footer__link">
+                Giới thiệu Tiki
+               </a>
+               <a href="" class="footer__link">
+                Tuyển dụng
+               </a><a href="" class="footer__link">
+                Chính sách bảo mật thanh toán
+               </a><a href="" class="footer__link">
+                Điều khoản sử dụng
+               </a><a href="" class="footer__link">
+                Gioi thiệu Tiki xu
+               </a>
+            </li>
+            <li class="footer__item">
+              <h4 class="footer__title">
+                Hợp tác và liên kết
+              </h4>
+               <a href="" class="footer__link">
+                Quy chế hoạt động Sàn GDTMĐT
+               </a>
+               <a href="" class="footer__link">
+                Bán hàng cùng Tiki
+               </a>
+               <div class="certify">
+                 <h3 class="certify__tittle">
+                  Chứng nhận bởi
+                 </h3>
+                 <div class="certify__img">
+                   <a href="" class="certify__link">
+                     <img src="./asset/images/certify1.png" alt="">
+                   </a>
+                   <a href="" class="certify__link">
+                    <img src="./asset/images/certify2.png" alt="">
+                  </a>
+                 </div>
+               </div>
+            </li>
+            <li class="footer__item">
+              <h4 class="footer__title">
+                Phương thức thanh toán
+              </h4>
+              <ul class="list__payment">
+                <i class="fab fa-cc-visa payment-item"></i>
+                <i class="fab fa-cc-jcb payment-item"></i>
+              </ul>
+            </li>
+            <li class="footer__item">
+              <h4 class="footer__title">
+                Kết nối với chúng tôi
+              </h4>
+              <ul class="list__social">
+                  <a href="" class="social__link">
+                    <img src="./asset/images/facebook.png" alt="">
+                  </a>
+                  <a href="" class="social__link">
+                    <img src="./asset/images/google.png" alt="">
+                  </a>
+                  <a href="" class="social__link">
+                    <img src="./asset/images/zalo.png" alt="">
+                  </a>
+              </ul>
+
+              <div class="download">
+                <h4 class="footer__title download__title">
+                  Tải ứng dụng trên điện thoại
+                </h4>
+                <div class="download__list">
+                  <div class="download__qr">
+                    <img src="./asset/images/qr.png" alt="">
+                  </div>
+                  <div class="download__phone">
+                    <img src="./asset/images/app.png" alt="" class="appstore">
+                    <img src="./asset/images/gplay.png" alt="" class = "googleplay">
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <div class="modal hide"></div>
+    <div class="register hide">
+      <div class="register__form">
+        <div class="icon-backLogin">
+        </div>
+        <h3 class="register__title">Xin chào,</h3>
+        <p class="register__des">Đăng nhập hoặc Tạo tài khoản</p>
+        <input class="input__phone" placeholder="Số điện thoại"></input>
+        <button class="btn btn-continue">Tiếp Tục</button>
+        <p class="login__gmail">Đăng nhập bằng gmail</p>
+        <div class="register__bottom">
+            <p class="choose-other">Hoặc tiếp tục bằng</p>
+            <ul class="list-social">
+                <li class="item-social">
+                       <img src="./asset/images/facebook.png" alt="" class="img-social">
+                </li>
+                <li class="item-social">                    
+                        <img src="./asset/images/google.png" alt="" class="img-social">
+                </li>
+                <li class="item-social">                   
+                       <img src="./asset/images/zalo.png" alt="" class="img-social">
+                </li>
+            </ul>
+            <p class="copyright">
+                Bằng việc tiếp tục, bạn đã chấp nhận 
+                <a href="" class="link-copyright">
+                    điều khoản sử dụng
+                </a>
+            </p>
+        </div>
+      </div>
+      <div class="form__right">
+          <img src="./asset/images/anhform.png" alt="" class="img-form">
+          <h3 class="form-introduce">Mua sắm tại Tiki</h3>
+          <p class="form__right-des">Siêu ưu đãi mỗi ngày</p>
+      </div>
+      <div class="form-icon">
+        <i class="fas fa-times"></i>
+      </div>
+    </div>
+    <div class="login hide">
+      <div class="login__form">
+        <div class="icon-backRegister">
+          <i class="fas fa-chevron-left"></i>
+        </div>
+        <h3 class="login__title">Đăng nhập bằng email</h3>
+        <p class="login__des">Nhập email và mật khẩu tài khoản Tiki</p>
+        <input type="text" class="input-login input-email" placeholder="acb@email.com">
+        <div class="form__password">
+          <input type="password" class="input-login input-password" placeholder="Mật khẩu">
+          <span class="show-password">Hiện</span>
+        </div>
+        <button class="btn btn-login">Đăng Nhập</button>
+        <p class="forgot-password">Quên mật khẩu</p>
+        <p class="remember">
+          Chưa có tài khoản? 
+          <span class="link-register">
+            Tạo tài khoản
+          </span> 
+        </p>
+      </div>
+      <div class="form__right">
+        <img src="./asset/images/anhform.png" alt="" class="img-form">
+        <h3 class="form-introduce">Mua sắm tại Tiki</h3>
+        <p class="form__right-des">Siêu ưu đãi mỗi ngày</p>
+      </div>
+      <div class="form-icon">
+        <i class="fas fa-times"></i>
+      </div>
+    </div>
+  </body>
+  <script src="./asset/script/trangchu.js"></script>
+</html>

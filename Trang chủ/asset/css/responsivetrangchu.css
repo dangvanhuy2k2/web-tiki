@@ -1,0 +1,8 @@
+@media (min-width: 760px) and (max-width:1023px){
+    .img-logo , .cart__introduce {
+        display: none;
+    }
+    .img-introduce {
+        width: 20px;
+    }
+}
